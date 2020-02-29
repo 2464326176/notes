@@ -1,0 +1,37 @@
+首先我们看下定义的Number-theoretic and representation functions.
+1:ceil(x):功能:返回一个浮点数据,该数据向上取整.
+2:copysign(x, y):功能:返回入参x,x的符号属性和入参y一致.
+3:fabs(x):功能:返回入参x的绝对值.
+4:factorial(x):功能:返回x的阶乘.
+Python库详解之math库
+5:floor(x):功能:返回一个浮点数据,该数据向下取整.
+6:fmod(x, y):功能:取模运算,等同x%y,注意表达式的符号看参数x.
+7:frexp(x):功能:效果等同公式x=m*2**e 返回二元数组(m,e).
+8:fsum(iterable):功能:计算列表内部所有数据元素之和.返回浮点类型.
+Python库详解之math库
+9:isinf(x):功能:判断浮点类型的入参是否为正向无穷大还是负向无穷大.
+10:isnan(x):功能:判断浮点类型的入参是否为数据.
+11:ldexp(x, i):功能:和函数frexp(x)函数相反等同公式:x*2**i
+12:modf(x):功能:返回入参x的整数和小数部分.
+13:trunc(x):功能:截取浮点数据的小数部分.
+Python库详解之math库
+接下来看math库定义的Power and logarithmic functions函数方法:
+1:exp(x):功能:指数运算,等同公式e**x.
+2:expm1(x):功能:与exp(x)不同在于该函数会有减1操作,小数部分的精度也有区别.
+3:log(x[, base]):功能:取log运算.如果入参只有1个,那么base=e.
+Python库详解之math库
+4:log1p(x):功能:取log运算,等同于1+x (base e).
+5:log10(x):功能:取log运算,base=10.
+6:pow(x, y):功能:幂运算,等同公式x**y.
+7:sqrt(x):功能:开方运算.
+Python库详解之math库
+接下来看math库定义的三角函数:Trigonometric functions
+1:acos(x):功能:反余弦函数.y = arccos(x),x=[-1,1];
+2:asin(x):功能:反正弦函数.y=arcsin(x),x=[-1,1];
+3:atan(x):功能:反正切函数.
+4:atan2(y, x):功能:返回y/x的反正切函数.
+Python库详解之math库
+6:cos(x):功能:余弦函数.
+7:sin(x):功能:正弦函数.
+8:tan(x):功能:正切函数.
+9:hypot(x, y):功能:返回欧氏范数,等同公式sqrt(x*x + y*y).
